@@ -1,0 +1,6 @@
+#Testcase leading to deadend - 1
+Riddle - 1:  search
+Riddle - 2:  1202
+Riddle - 3:  121
+Riddle - 4:  8967
+Deadend

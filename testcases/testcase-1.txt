@@ -1,0 +1,7 @@
+#Testcase leading to the treasure
+Riddle - 1:  search
+Riddle - 2:  1202
+Riddle - 3:  80
+Riddle - 4:  764
+Riddle - 4:  velvet
+Treasure

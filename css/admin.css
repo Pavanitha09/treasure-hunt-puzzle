@@ -1,0 +1,23 @@
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.heading-overlay{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.atable-overlay{
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    transform: translate(-15%, -50%);
+    z-index: 1;
+}
+
+

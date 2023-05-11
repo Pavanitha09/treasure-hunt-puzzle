@@ -1,0 +1,270 @@
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.heading-overlay{
+    position: absolute;
+    top: 20%;
+    left: 5.5%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.heading4-overlay{
+  position: absolute;
+  top: 20%;
+  left: 5.5%;
+  transform: translate(-15%, -50%);
+  z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.logo-overlay{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.name-overlay{
+  position: absolute;
+  top: 5%;
+  left: 88%;
+  transform: translate(-15%, -50%);
+  z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.t-overlay{
+    position: absolute;
+    top: 30%;
+    left: 8.5%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.t4-overlay{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-15%, -50%);
+  z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.hint-overlay{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.hint4-overlay{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-15%, -50%);
+  z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.deadend-overlay{
+  position: absolute;
+  transform: translate(-15%, -50%);
+  z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.form1-overlay{
+    position: absolute;
+    top: 50%;
+    left: 6.5%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.form2-overlay{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+input#field{
+    height: 40px;
+    width: 80%;
+    outline: none;
+    font-size: 15px;
+    color: #868686;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #444;
+    caret-color: #339933;
+    background: linear-gradient(#333,#4b4461);
+  }
+  input#field2{
+    height: 40px;
+    top:30%;
+    width: 30%;
+    outline: none;
+    font-size: 15px;
+    color: #868686;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #444;
+    caret-color: #339933;
+    background: linear-gradient(#333,#4b4461);
+  }
+  input#field5{
+    height: 40px;
+    top:30%;
+    width: 40px;
+    outline: none;
+    font-size: 15px;
+    color: #868686;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #444;
+    caret-color: #339933;
+    background: linear-gradient(#333,#4b4461);
+  }
+  input:focus{
+    color: #339933;
+    box-shadow: 0 0 5px rgba(0,255,0,.2),
+                inset 0 0 5px rgba(0,255,0,.1);
+    background: linear-gradient(#333933,#222922);
+    animation: glow .8s ease-out infinite alternate;
+  }
+  input#hint {
+    top: 50%;
+    left: 6.5%;
+    background-color: rgb(48, 83, 41);
+    color: #0d0c0c;
+    padding: 8px 15px;
+    border: 1px solid #111;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  input#hint:hover {
+    background-color: #abc58c   ;
+    color: rgb(26, 21, 21);
+    border: 1px solid #111;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+.container#blur.active{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+.hintpopup-overlay{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.modal {
+  display: none;
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+  padding-left: 10px;
+  left: 20%;
+  top: 60%;
+  width: 600px;
+  height: 200px;
+  overflow: auto;
+  background-color: rgb(198, 196, 188)
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.modal3 {
+  display: none;
+  position: relative;
+  z-index: 1;
+  padding-top: 10px;
+  padding-left: 10px;
+  left: 20%;
+  top: 60%;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+}
+
+.modal5 {
+  display: none;
+  position: absolute;
+    transform: translate(-15%, -50%);
+    z-index: 1; /* Make sure the image is on top of the blurred background */
+}
+.modal3-content {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #b42424;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button1:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.button2 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+.button2:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.button2:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}

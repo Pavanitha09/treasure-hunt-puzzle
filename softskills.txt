@@ -1,0 +1,8 @@
+Logic used to identify if a person has a soft-skill:
+- The treasure hunt that I have designed tests different soft skills of a person like eye for detail, Thinking ability, Problem Solving, Time Management, Perserverance etc.
+
+- If an individual can efficiently and effectively solve the puzzle with a high score in a shorter period of time, it can be inferred that they possess strong soft skills.
+
+
+
+

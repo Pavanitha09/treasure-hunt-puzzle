@@ -1,2 +1,4 @@
 Admin ID(email) - admin2@gmail.com
 Admin password - jet@0396
+
+Link to login to the admin dashboard: http://treasure-hunt096.infinityfreeapp.com/adminlogin.php

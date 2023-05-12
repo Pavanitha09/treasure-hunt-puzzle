@@ -1,3 +1,7 @@
+How to open the project link:
+
+Sometimes, clicking on the project link can be dangerous because the website's deployment is not secure and begins with "http" instead of "https." Therefore, if a warning message appears stating that the site ahead is deceptive, it is important to click on "details" and proceed with caution when visiting the unsafe site.
+
 Soft skills:
 
 1) Eye for detail 
